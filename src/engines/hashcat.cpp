@@ -236,7 +236,7 @@ int Ngn_Hashcat::run ()
 	// if mask maximum set, apply it
 	if(job->getMaskMax())
 	{
-		cmd = format("%s --pw-min %d",
+		cmd = format("%s --pw-max %d",
 			cmd,
 			job->getMaskMax()
 		);
