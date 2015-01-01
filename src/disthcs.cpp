@@ -394,7 +394,7 @@ protected:
 			.repeatable(false)
 		);
 		options.addOption(
-			Option("sync", "S", "automatuically sync data files from master (true|false)")
+			Option("sync", "S", "automatically sync data files from master (true|false)")
 			.required(false)
 			.repeatable(false)
 			.argument("true|false", true)
