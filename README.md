@@ -11,7 +11,7 @@ To use this software, compile all 3 components, then:
 * Run and connect your slaves
 * Run and connect the console to control everything
 
-## Prequisites
+## Prerequisites
 
 You must have PocoLib Complete Edition >= 1.4.4 in order to build these apps. Basic Edition will fail to compile. I believe Ubuntu ships with 1.3 in it's repos, so Ubuntu users are going to
 need to build PocoLib from source before compiling this. (Other distros may need to do the same).
@@ -31,6 +31,9 @@ Disthc now uses SSL for secure communications out-of-the-box. Two pem files are 
 You can, of course, change these via the master.properties file to be any certs of your choosing, but the existing files will work for rapid deployment during testing.
 
 ## Building
+
+Note: Only able to build using poco-1.4.7-release branch
+
 
 Simply use make as expected to build disthc. Run make by itself, or specify one of the three build targets: master, slave, console.
 Example building all modules:
